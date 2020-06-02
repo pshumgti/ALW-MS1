@@ -23,8 +23,9 @@
 
 
 .navbar a.active {
-  background-color:grey;
-  color: white;
+  background-color:white;
+  color: black;
+  font-style: oblique;
 
 }
 /*-------------------------------body--*/
@@ -65,4 +66,4 @@ section {
 .footer-bar a.active {
   background-color:grey;
   color: white;
-
+}
