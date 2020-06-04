@@ -1,8 +1,16 @@
+/*-------------------------------index--*/
+
 /*-------------------------------header--*/
+
+.header {
+    position: relative;
+}
 
 .navbar {
   background-color: black;
   overflow: hidden;
+
+
 }
 .navbar a {
   float: left;
@@ -44,36 +52,57 @@ a.logo {
 }
 /*-------------------------------body--*/
 
-section {
-    float: left;
+.index-body-banner {
+
+    height:50vh;
+    max-width:100%;
+    color: #ffffff;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+}
+
+h1 {
+    color: black;
+    font-style: oblique;
+    font-size: 20px;
+    text-align: center;
+    padding: 20px 0;
+}
+
+
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
 }
 
 
 /*-------------------------------footer--*/
 
-.footer-bar {
-  background-color: black;
-  overflow: hidden;
-  position: fixed;
+.footer {
+  left: 0;
   bottom: 0;
-  width: 99%;
-
-
-}
-.footer-bar a {
-  float: left;
-  color: #f2f2f2;
+  width: 100%;
+  background-color: black;
+  color: white;
   text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
+  overflow: hidden;
 }
 
-
-.footer-bar a:hover  {
-  background-color: grey;
-  color: black;
-}
+/*-------------------------------index--*/
 
 
 
